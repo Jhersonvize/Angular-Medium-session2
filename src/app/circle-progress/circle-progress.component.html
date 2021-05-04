@@ -1,0 +1,21 @@
+<circle-progress
+  [percent]="percentCircleProgress"
+  [radius]="80"
+  [outerStrokeWidth]="10"
+  [innerStrokeWidth]="10"
+  [outerStrokeColor]="'#FF9000'"
+  [innerStrokeColor]="'#FFFFFF'"
+  [animation]="true"
+  [animationDuration]="300"
+  [subtitle]="'de Progreso'"
+  [subtitleFontSize]="14"
+  [subtitleColor]="'#000000'"
+  [startFromZero]="false"
+  [imageSrc]="'assets/efitec98.png'"
+  [showImage]="true"
+  [imageHeight]="140"
+  [imageWidth]="140"
+></circle-progress>
+<div class="supplyPercent">
+    {{percentCircleProgress}}% Suministrado
+</div>
